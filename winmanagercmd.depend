@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1585650499 source:c:\vinicius\c++\codeblocks\winmanagercmd\main.cpp
+	<Windows.h>
+	<shellapi.h>
+	<iostream>
+
+1585658149 source:c:\vinicius\c++\codeblocks\winmanagercmd\winmanagercmd.cpp
+	<Windows.h>
+	<iostream>
+

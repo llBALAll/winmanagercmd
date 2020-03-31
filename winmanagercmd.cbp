@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="winmanagercmd" />
+		<Option pch_mode="2" />
+		<Option compiler="msvc10" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/winmanagercmd" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="msvc10" />
+				<Compiler>
+					<Add option="/MT" />
+					<Add option="/DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="user32" />
+					<Add library="shell32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="winmanagercmd.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
